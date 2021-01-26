@@ -16,7 +16,7 @@
 	geolocation_store.subscribe((coords) => {
 		const { latitude, longitude } = coords
 
-		map_object && map_object.setView([latitude, longitude], 15)
+		map_object && map_object.setView([latitude, longitude], 16)
 	})
 </script>
 
