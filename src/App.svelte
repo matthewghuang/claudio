@@ -11,7 +11,9 @@
 	page()
 
 	onMount(() => {
-		console.log(text_to_speech.get_voice())
+		setTimeout(() => {
+			text_to_speech.speak("speed: 29, heart rate: 149")
+		}, 5000)
 	})
 </script>
 
