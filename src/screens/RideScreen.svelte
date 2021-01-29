@@ -18,8 +18,20 @@
 	}
 </script>
 
-<div class="w-screen h-screen">
+<div class="flex flex-col w-full h-screen p-3 space-y-3 justify-center bg-gray-100">
+	<div class="flex-initial h-24 p-3 shadow-lg rounded-lg bg-white">
+		<p>SPEED</p>
+		<p class="font-mono text-2xl">0</p>
+	</div>
+
+	<div class="flex-initial h-24 p-3 shadow-lg rounded-lg bg-white">
+		<p>HEART RATE</p>
+		<p class="font-mono text-2xl">0</p>
+	</div>
+
 	{#if $settings_store.map_enabled && navigator.onLine}
-		<Map />
+		<div class="flex-1 shadow-lg">
+			<Map />
+		</div>
 	{/if}
 </div>

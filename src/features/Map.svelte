@@ -20,4 +20,4 @@
 	})
 </script>
 
-<div id="map" class="w-full h-full"></div>
+<div id="map" class="w-full h-full rounded-lg"></div>
