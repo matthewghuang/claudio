@@ -1,4 +1,4 @@
-import { writable } from "svelte/store"
+import { writable, Writable } from "svelte/store"
 
 interface GeolocationStore {
 	latitude?: number
