@@ -7,6 +7,6 @@
 
 <style>
 	.button {
-		@apply bg-white p-3 rounded-lg w-full text-center;
+		@apply bg-white p-3 rounded-lg w-full text-center shadow-lg;
 	}
 </style>

@@ -1,7 +1,7 @@
 import { writable } from "svelte/store"
 
-interface ISettingsStore {
+interface SettingsStore {
 	map_enabled: boolean
 }
 
-export const settings_store = writable<ISettingsStore>({ map_enabled: true })
+export const settings_store = writable<SettingsStore>({ map_enabled: true })

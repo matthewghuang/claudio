@@ -1,10 +1,10 @@
 import { writable } from "svelte/store"
 
-interface IGeolocationStore {
+interface GeolocationStore {
 	latitude?: number
 	longitude?: number
 	speed?: number
 	accuracy?: number
 }
 
-export const geolocation_store = writable<IGeolocationStore>({})
+export const geolocation_store = writable<GeolocationStore>({})
