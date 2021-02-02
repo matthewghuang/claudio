@@ -12,3 +12,9 @@
 </script>
 
 <svelte:component this={screen_component} />
+
+<style>
+	:global(body) {
+		@apply bg-gray-100;
+	}
+</style>

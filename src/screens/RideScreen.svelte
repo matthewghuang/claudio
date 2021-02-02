@@ -46,9 +46,7 @@
 	})
 </script>
 
-<div
-	class="flex flex-col w-full h-screen p-3 space-y-3 justify-center bg-gray-100"
->
+<div class="flex flex-col w-full h-screen p-3 space-y-3 justify-center">
 	<div class="flex-initial h-24 p-3 shadow-lg rounded-lg bg-white">
 		<p>SPEED</p>
 		<p class="font-mono text-2xl">0</p>
