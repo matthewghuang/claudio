@@ -29,7 +29,7 @@ export const App = () => {
 		<BrowserRouter>
 			<Switch>
 				<Route path="/ride">
-					<RideScreen></RideScreen>
+					<RideScreen sensor_data={sensor_data}></RideScreen>
 				</Route>
 				<Route path="/connect">
 					<ConnectScreen add_sensor={add_sensor}></ConnectScreen>
