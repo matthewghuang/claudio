@@ -1,23 +1,21 @@
 {
-  "name": "svelte-template",
+  "name": "react-tailwind-snowpack",
   "version": "1.0.0",
+  "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "snowpack dev",
-    "build": "snowpack build"
+    "build": "snowpack build",
+    "dev": "snowpack dev"
   },
   "dependencies": {
-    "@snowpack/plugin-svelte": "^3.4.1",
-    "autoprefixer": "^10.1.0",
-    "leaflet": "1.7.1",
-    "page": "1.11.6",
-    "postcss": "^8.2.1",
+    "@snowpack/plugin-postcss": "^1.1.0",
+    "@snowpack/plugin-react-refresh": "^2.4.0",
+    "autoprefixer": "^10.2.4",
+    "postcss": "^8.2.6",
     "postcss-cli": "^8.3.1",
-    "postcss-import": "^14.0.0",
-    "snowpack": "^2.18.5",
-    "svelte": "^3.31.0",
-    "svelte-preprocess": "^4.6.1",
-    "tailwindcss": "^2.0.2",
-    "typescript": "4.1.3"
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "snowpack": "^3.0.11",
+    "tailwindcss": "^2.0.3"
   }
 }

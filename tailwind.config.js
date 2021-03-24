@@ -1,5 +1,3 @@
 module.exports = {
-	purge: [
-		"src/**/*.svelte"
-	]
+	purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"]
 }
