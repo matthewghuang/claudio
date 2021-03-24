@@ -9,10 +9,6 @@ import { Sensors } from "./sensors/Sensors"
 export const App = () => {
 	const [sensor_data, set_sensor_data] = useState({})
 
-	useEffect(() => {
-		console.log(sensor_data)
-	}, [sensor_data])
-
 	const update_sensor_data = (sensor, new_value) => {
 		const new_sensor_data = { ...sensor_data }
 		new_sensor_data[sensor] = new_value
@@ -22,7 +18,6 @@ export const App = () => {
 	const add_sensor = sensor_type => {
 		switch (sensor_type) {
 			case Sensors.HEART_RATE: {
-				console.log("heart_rate")
 				new HeartRateSensor(hr => update_sensor_data(Sensors.HEART_RATE, hr))
 
 				break
